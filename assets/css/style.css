@@ -1,0 +1,28 @@
+#gameBox {
+    border: 2px double black;
+    padding: 20px;
+    margin: 20px;
+    display: none;
+}
+
+li {
+    display: inline-block;
+}
+#uPicked {
+    font-weight: bold;
+}
+#compPicked {
+    font-weight: bold;
+}
+#win {
+    font-weight: bold;
+}
+#loss {
+    font-weight: bold;
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}

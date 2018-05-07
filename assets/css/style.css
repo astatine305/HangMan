@@ -1,8 +1,27 @@
+.container {
+    width: 70%;
+    align-items: center;
+    margin: 50px auto;
+
+    
+}
 #gameBox {
     border: 2px double black;
     padding: 20px;
     margin: 20px;
     display: none;
+    background-image: url("../images/rocky.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    min-width: 40%;;
+    min-height: 300px;
+}
+/* ul {
+    display: inline-block;
+} */
+#score{
+    display: inline-block;
 }
 
 li {
@@ -24,5 +43,9 @@ li {
 #button {
     width: 100px;
     height: 50px;
-    background-color: blue;
+    background-color:grey;
+    color: white;
+    float: right;
+    padding: 10px;
 }
+

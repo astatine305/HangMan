@@ -13,31 +13,26 @@
 
 <body>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <p id='start'></p>
     
     <div class="container">
+    <div id='top'>
+        <div id='score'>
         <ul>
             <li>Guesses:</li>
             <li id="uGuessed">--</li>
         </ul>
         <ul>
-            <li>Remaining Guesses:</li>
+            <li>Lives:</li>
             <li id="remainGuess">--</li>
         </ul>
-        <ul>
-            <li>Wins:</li>
-            <li id="win">--</li>
-        </ul>
-        <ul>
-            <li>Losses:</li>
-            <li id="loss">--</li>
-        </ul>
-    
         </div>
-        <button onclick="startGame()" id="button">Start Game</button>
+        
+        <button onclick="startGame(); play()" id="button" value="play">Start Game</button>
+    </div>
 
         <div id='gameBox'></div>
+    </div>
+        <audio id='audio' src="./assets/audio/eyeOfTiger.mp3"></audio>
 </body>
 
 </html>
